@@ -1,0 +1,76 @@
+.tickerlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.head{
+    color: rgb(89, 84, 84);
+    font-weight: 450;
+}
+.trade{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.trade ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    list-style: none;
+    gap: 4vw;
+    width: 100%;
+
+}
+.trade ul li{
+    display: flex;
+    flex-direction: column;
+}
+.rupees{
+    color: white;
+    font-size: 5vw;
+}
+span{
+    color: rgb(40, 165, 165);
+    font-size: 1.6vw;
+}
+.below{
+    color: rgb(89, 84, 84);
+    font-size: 1vw;
+    font-weight: 500;
+}
+/*table */
+
+table {
+    margin: auto;
+    width: 96%;
+    border-collapse: separate;
+    border-spacing: 0 1.4vw
+  }
+  
+  th {
+    background-color:rgb(22, 30, 41);
+    color:rgb(106, 102, 102);
+    font-size: 1.2vw;
+  }
+  
+  tr.data {
+    background-color:rgb(45, 48, 58); 
+    color: white;
+    font-weight: 400;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  .open {
+    color:green;
+    font-weight: 500;
+  }
+ 
